@@ -5,7 +5,7 @@ console.log("Hello World");
 
 
 
-app.get("/", (req, res) => {res.send(__dirname + "views/index.html")});
+app.get("/", (req, res) => {res.sendFile(__dirname + "/views/index.html")});
 
 
 
